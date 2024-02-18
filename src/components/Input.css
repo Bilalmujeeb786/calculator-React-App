@@ -1,0 +1,17 @@
+.Input-wrap {
+    height: 4em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    color: black;
+}
+
+.Result {
+    flex: 1;
+    font-size: 24px;
+}
+.Text {
+    flex: 1;
+    font-size: 18;
+}
