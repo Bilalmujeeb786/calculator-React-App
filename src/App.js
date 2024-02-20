@@ -72,26 +72,26 @@ const App = () => {
         <Button symbol="7" handleClick={() => addToText("7")}/>
         <Button symbol="8" handleClick={() => addToText("8")}/>
         <Button symbol="9" handleClick={() => addToText("9")}/>
-        <Button symbol="/" color="orange" handleClick={() => addToText("/")}/>
+        <Button symbol="/" color="green" handleClick={() => addToText("/")}/>
         </div>
         <div className="Row" >
         <Button symbol="4" handleClick={() => addToText("4")}/>
         <Button symbol="5" handleClick={() => addToText("5")}/>
         <Button symbol="6" handleClick={() => addToText("6")}/>
-        <Button symbol="*" color="orange" handleClick={() => addToText("*")}/>
+        <Button symbol="*" color="green" handleClick={() => addToText("*")}/>
         </div>
         
         <div className="Row" >
         <Button symbol="1" handleClick={() => addToText("1")}/>
         <Button symbol="2" handleClick={() => addToText("2")}/>
         <Button symbol="3" handleClick={() => addToText("3")}/>
-        <Button symbol="+" color="orange" handleClick={() => addToText("+")}/>
+        <Button symbol="+" color="green" handleClick={() => addToText("+")}/>
         </div>
         <div className="Row" >
         <Button symbol="0" handleClick={() => addToText("0")}/>
         <Button symbol="." handleClick={() => addToText(".")}/>
         <Button symbol="=" handleClick={calculateResult}/>
-        <Button symbol="-" color="orange" handleClick={() => addToText("-")}/>
+        <Button symbol="-" color="green" handleClick={() => addToText("-")}/>
         </div>
         
           <Button symbol="Clear" color="red" handleClick={clearInput}/>
